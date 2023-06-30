@@ -1,11 +1,11 @@
-About r-mdmr
-============
+About r-mdmr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mdmr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/dmcartor/mdmr
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mdmr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Allows users to conduct multivariate distance matrix regression using analytic p-values and compute measures of effect size. For details on the method, see McArtor, Lubke, & Bergeman (2017) <doi:10.1007/s11336-016-9527-8>.
 

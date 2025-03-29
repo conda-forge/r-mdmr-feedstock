@@ -1,4 +1,4 @@
-{% set version = '0.5.1' %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/MDMR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/MDMR/MDMR_{{ version }}.tar.gz
-  sha256: 5d18c3379ca6e7762f218c2c9fc8c9b49aa194acce5624c3ef58cb7b683f65df
+  sha256: 1cfe0494cf09659b27025f796f56d46444ec56d3d323645410f5ee8f94b49aba
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -41,9 +41,7 @@ test:
 about:
   home: http://github.com/dmcartor/mdmr
   license: GPL-2.0-or-later
-  summary: Allows users to conduct multivariate distance matrix regression using analytic p-values
-    and compute measures of effect size. For details on the method, see McArtor, Lubke,
-    & Bergeman (2017) <doi:10.1007/s11336-016-9527-8>.
+  summary: Allows users to conduct multivariate distance matrix regression using analytic p-values and compute measures of effect size. For details on the method, see McArtor, Lubke, & Bergeman (2017) <doi:10.1007/s11336-016-9527-8>.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
